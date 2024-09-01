@@ -1,5 +1,5 @@
 fun main() {
-    val dayOfWeek = 3 // Example input
+    val dayOfWeek = 3
 
     val dayName = when (dayOfWeek) {
         1 -> "Monday"
@@ -9,7 +9,7 @@ fun main() {
         5 -> "Friday"
         6 -> "Saturday"
         7 -> "Sunday"
-        else -> "Invalid day" // Default case
+        else -> "Invalid day"
     }
 
     println("Day of the week: $dayName")
